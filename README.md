@@ -6,21 +6,37 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-
+Create a file and add some content into it.
 ### Step 2: 
- 
+Open file using with keyword/built-in function in read mode.
 ### Step 3: 
-
+Use read() to read the contents of the file.
 ### Step 4:  
-
+Split the lines using split().
 ### Step 5: 
-
+Iterate the list and increment the count.
 ### Step 6: 
-
+Print the output.
 ## PROGRAM:
+```
+Program for linear search method to match the item in a list
+Developed by: Vaishnavi M
+RegisterNumber: 21500310
+
+def wordcount():
+  count = 0
+  with open("file.txt","r") as fp:
+    data=fp.read()
+    for line in data.split():
+      count += 1
+  print("The word count is", count)
+wordcount()
+
+```
 
 ### OUTPUT:
-
+![output](./output.png)
+![output](./output1.png)
 
 
 ## RESULT:
